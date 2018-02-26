@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartIt.Security.Cors", "SmartIt.Security.Cors\SmartIt.Security.Cors.csproj", "{3597469E-5635-41AC-8B85-55B1F9911784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartIt.Security.Cors.Client", "SmartIt.Security.Cors.Client\SmartIt.Security.Cors.Client.csproj", "{F4026491-4D9D-4690-A374-00D83AFB9B97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3597469E-5635-41AC-8B85-55B1F9911784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3597469E-5635-41AC-8B85-55B1F9911784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3597469E-5635-41AC-8B85-55B1F9911784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3597469E-5635-41AC-8B85-55B1F9911784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4026491-4D9D-4690-A374-00D83AFB9B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4026491-4D9D-4690-A374-00D83AFB9B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4026491-4D9D-4690-A374-00D83AFB9B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4026491-4D9D-4690-A374-00D83AFB9B97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6E84E4D-F2FB-4506-A1DE-9E7BB3A0AE4E}
+	EndGlobalSection
+EndGlobal
