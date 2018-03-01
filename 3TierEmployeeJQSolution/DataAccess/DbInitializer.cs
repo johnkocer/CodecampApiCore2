@@ -1,8 +1,5 @@
 ﻿using BusinessLayer.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace DataAccess
 {
@@ -33,7 +30,6 @@ namespace DataAccess
             context.Employee.Add(e);
          }
          context.SaveChanges();
-
       }
    }
 }

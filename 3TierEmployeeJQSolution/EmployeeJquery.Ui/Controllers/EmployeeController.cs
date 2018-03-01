@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Models;
 using DataAccess;
-using BusinessLayer.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace EmployeeJquery.Ui.Controllers
 {
@@ -10,6 +10,7 @@ namespace EmployeeJquery.Ui.Controllers
    public class EmployeeController : Controller
    {
       private EmployeeDataContext _context;
+
       //private EmployeeRepository db = new EmployeeRepository();
       public EmployeeController(EmployeeDataContext context)
       {
